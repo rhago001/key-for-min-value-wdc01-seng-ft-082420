@@ -10,5 +10,11 @@ result=""
   name_hash.sort {|key, value| key <=> value} 
   puts key[0]
 
+
+def completes(name_hash) # This also works for this lab.
+  name_hash.sort do |x,y|
+     x <=> y
+  end.first[0]
+end
 end
 #puts value

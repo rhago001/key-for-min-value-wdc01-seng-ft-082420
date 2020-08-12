@@ -8,7 +8,7 @@ result=""
    #value=:key.min()
   # name_hash.each_key { |key_value_array| block }
   name_hash.sort {|key, value| key <=> value} 
-  puts key
+  puts key[0]
 
 end
 #puts value

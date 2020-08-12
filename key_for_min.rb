@@ -6,7 +6,7 @@ result=""
 
  name_hash.each do |key, value|
    value=:key.min()
-   
+   name_hash.each_key { |key_value_array| block }
 
 end
 puts value
